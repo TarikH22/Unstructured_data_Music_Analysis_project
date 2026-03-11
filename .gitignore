@@ -1,0 +1,23 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+logs/
+pipeline.log
+*.log
+
+# Data (large files / fetched content)
+data/raw/images/
+data/raw/video/*.mp4
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

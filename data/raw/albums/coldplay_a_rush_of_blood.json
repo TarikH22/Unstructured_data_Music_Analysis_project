@@ -1,0 +1,42 @@
+{
+    "album": {
+        "name": "A Rush of Blood to the Head",
+        "artist": "Coldplay",
+        "mbid": "4f2a9e2e-9c89-4c2c-b41b-8ac6b08e5a0c",
+        "url": "https://www.last.fm/music/Coldplay/A+Rush+of+Blood+to+the+Head",
+        "image": [
+            { "size": "small",      "#text": "https://lastfm.freetls.fastly.net/i/u/34s/album_cover.png" },
+            { "size": "medium",     "#text": "https://lastfm.freetls.fastly.net/i/u/64s/album_cover.png" },
+            { "size": "large",      "#text": "https://lastfm.freetls.fastly.net/i/u/174s/album_cover.png" },
+            { "size": "extralarge", "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/album_cover.png" }
+        ],
+        "listeners": "3200000",
+        "playcount": "98000000",
+        "tracks": {
+            "track": [
+                { "rank": "1", "name": "Politik" },
+                { "rank": "2", "name": "In My Place" },
+                { "rank": "3", "name": "God Put a Smile upon Your Face" },
+                { "rank": "4", "name": "The Scientist" },
+                { "rank": "5", "name": "Clocks" },
+                { "rank": "6", "name": "Daylight" },
+                { "rank": "7", "name": "Green Eyes" },
+                { "rank": "8", "name": "Warning Sign" },
+                { "rank": "9", "name": "A Whisper" },
+                { "rank": "10", "name": "A Rush of Blood to the Head" },
+                { "rank": "11", "name": "Amsterdam" }
+            ]
+        },
+        "tags": {
+            "tag": [
+                { "name": "alternative rock" },
+                { "name": "post-britpop" },
+                { "name": "piano rock" }
+            ]
+        },
+        "wiki": {
+            "published": "2002-08-26",
+            "summary": "A Rush of Blood to the Head is the second studio album by British rock band Coldplay, released on 26 August 2002."
+        }
+    }
+}
