@@ -1,0 +1,17 @@
+2026-03-18 10:37:13,548 - INFO - Starting pipeline...
+2026-03-18 10:37:36,859 - INFO - Fetched 150 artists from API
+2026-03-18 10:37:37,025 - INFO - Pipeline finished successfully
+2026-03-18 10:38:46,217 - INFO - Started uploading artists_page_1.json to music-pipeline-bucket
+2026-03-18 10:38:46,302 - INFO - Successfully uploaded artists_page_1.json to music-pipeline-bucket
+2026-03-18 10:43:04,896 - INFO - Started uploading artists_page_1.json to music-pipeline-bucket
+2026-03-18 10:43:04,897 - ERROR - The file ../../data/raw/api/artists_page_1.json was not found.
+2026-03-18 10:43:27,476 - INFO - Starting pipeline...
+2026-03-18 10:43:30,309 - INFO - Fetched 150 artists from API
+2026-03-18 10:43:30,417 - INFO - Pipeline finished successfully
+2026-03-18 10:45:30,964 - INFO - Started uploading artists_page_1.json to music-pipeline-bucket
+2026-03-18 10:45:31,011 - INFO - Successfully uploaded artists_page_1.json to music-pipeline-bucket
+2026-03-18 10:45:32,025 - INFO - Starting pipeline...
+2026-03-18 10:45:32,831 - INFO - Fetched 150 artists from API
+2026-03-18 10:45:33,034 - INFO - Started uploading artists_page_1.json to music-pipeline-bucket
+2026-03-18 10:45:33,070 - INFO - Successfully uploaded artists_page_1.json to music-pipeline-bucket
+2026-03-18 10:45:33,070 - INFO - Pipeline finished successfully
