@@ -7,9 +7,9 @@ __pycache__/
 *.pyo
 
 # Logs
-logs/
-pipeline.log
+logs/*
 *.log
+!logs/pipeline.log
 
 # Data (large files / fetched content)
 data/raw/images/
