@@ -2,3 +2,9 @@ requests
 python-dotenv
 pymongo
 boto3
+fpdf2
+pdfplumber
+python-docx
+openpyxl
+chardet
+Pillow

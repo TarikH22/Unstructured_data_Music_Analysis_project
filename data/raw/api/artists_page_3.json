@@ -2,11 +2,11 @@
     "artists": {
         "artist": [
             {
-                "name": "LE SSERAFIM",
-                "playcount": "298760937",
-                "listeners": "1628741",
-                "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
-                "url": "https://www.last.fm/music/LE+SSERAFIM",
+                "name": "Marina",
+                "playcount": "180468738",
+                "listeners": "2248842",
+                "mbid": "b37e091c-d2ee-4707-bfb1-402fc32f29bd",
+                "url": "https://www.last.fm/music/Marina",
                 "streamable": "0",
                 "image": [
                     {
@@ -32,11 +32,11 @@
                 ]
             },
             {
-                "name": "KATSEYE",
-                "playcount": "93526634",
-                "listeners": "1496028",
-                "mbid": "abbf7d85-9a7f-4a6c-80bd-bf71f2c7d520",
-                "url": "https://www.last.fm/music/KATSEYE",
+                "name": "Madonna",
+                "playcount": "358686845",
+                "listeners": "5560228",
+                "mbid": "79239441-bfd5-4981-a70c-55c3f15c1287",
+                "url": "https://www.last.fm/music/Madonna",
                 "streamable": "0",
                 "image": [
                     {
@@ -62,71 +62,11 @@
                 ]
             },
             {
-                "name": "Jeff Buckley",
-                "playcount": "161789148",
-                "listeners": "3329824",
-                "mbid": "e6e879c0-3d56-4f12-b3c5-3ce459661a8e",
-                "url": "https://www.last.fm/music/Jeff+Buckley",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "ABBA",
-                "playcount": "188511049",
-                "listeners": "4347123",
-                "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
-                "url": "https://www.last.fm/music/ABBA",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Pitbull",
-                "playcount": "106530546",
-                "listeners": "4361147",
-                "mbid": "d262ea27-3ffe-40f7-b922-85c42d625e67",
-                "url": "https://www.last.fm/music/Pitbull",
+                "name": "Brent Faiyaz",
+                "playcount": "231493673",
+                "listeners": "2028211",
+                "mbid": "201412c6-7ced-472b-87a9-9259ec3c07d3",
+                "url": "https://www.last.fm/music/Brent+Faiyaz",
                 "streamable": "0",
                 "image": [
                     {
@@ -153,8 +93,8 @@
             },
             {
                 "name": "David Guetta",
-                "playcount": "186123302",
-                "listeners": "5178867",
+                "playcount": "186944053",
+                "listeners": "5194019",
                 "mbid": "302bd7b9-d012-4360-897a-93b00c855680",
                 "url": "https://www.last.fm/music/David+Guetta",
                 "streamable": "0",
@@ -182,69 +122,9 @@
                 ]
             },
             {
-                "name": "Kesha",
-                "playcount": "115745502",
-                "listeners": "3104348",
-                "mbid": "fab34286-b8e1-4879-bce3-194e1358fbd2",
-                "url": "https://www.last.fm/music/Kesha",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "TWICE",
-                "playcount": "492339993",
-                "listeners": "1880390",
-                "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
-                "url": "https://www.last.fm/music/TWICE",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
                 "name": "The Smashing Pumpkins",
-                "playcount": "255645999",
-                "listeners": "4513619",
+                "playcount": "256833010",
+                "listeners": "4524933",
                 "mbid": "ba0d6274-db14-4ef5-b28d-657ebde1a396",
                 "url": "https://www.last.fm/music/The+Smashing+Pumpkins",
                 "streamable": "0",
@@ -272,9 +152,159 @@
                 ]
             },
             {
+                "name": "TWICE",
+                "playcount": "495224752",
+                "listeners": "1892794",
+                "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+                "url": "https://www.last.fm/music/TWICE",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Kesha",
+                "playcount": "116647890",
+                "listeners": "3118886",
+                "mbid": "fab34286-b8e1-4879-bce3-194e1358fbd2",
+                "url": "https://www.last.fm/music/Kesha",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "KATSEYE",
+                "playcount": "94953679",
+                "listeners": "1513684",
+                "mbid": "abbf7d85-9a7f-4a6c-80bd-bf71f2c7d520",
+                "url": "https://www.last.fm/music/KATSEYE",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "LE SSERAFIM",
+                "playcount": "300709842",
+                "listeners": "1641399",
+                "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+                "url": "https://www.last.fm/music/LE+SSERAFIM",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "ABBA",
+                "playcount": "189586726",
+                "listeners": "4361186",
+                "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+                "url": "https://www.last.fm/music/ABBA",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
                 "name": "JA\u0178-Z",
-                "playcount": "1724780",
-                "listeners": "423428",
+                "playcount": "2627631",
+                "listeners": "528302",
                 "url": "https://www.last.fm/music/JA%C5%B8-Z",
                 "streamable": "0",
                 "image": [
@@ -302,8 +332,8 @@
             },
             {
                 "name": "The Cranberries",
-                "playcount": "155809119",
-                "listeners": "4684648",
+                "playcount": "156619334",
+                "listeners": "4698956",
                 "mbid": "c98d40fd-f6cf-4b26-883e-eaa515ee2851",
                 "url": "https://www.last.fm/music/The+Cranberries",
                 "streamable": "0",
@@ -331,9 +361,69 @@
                 ]
             },
             {
+                "name": "Jeff Buckley",
+                "playcount": "163186768",
+                "listeners": "3342848",
+                "mbid": "e6e879c0-3d56-4f12-b3c5-3ce459661a8e",
+                "url": "https://www.last.fm/music/Jeff+Buckley",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Pitbull",
+                "playcount": "107370384",
+                "listeners": "4376384",
+                "mbid": "d262ea27-3ffe-40f7-b922-85c42d625e67",
+                "url": "https://www.last.fm/music/Pitbull",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
                 "name": "Dua Lipa",
-                "playcount": "316142430",
-                "listeners": "3237279",
+                "playcount": "317258108",
+                "listeners": "3248654",
                 "mbid": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
                 "url": "https://www.last.fm/music/Dua+Lipa",
                 "streamable": "0",
@@ -361,69 +451,9 @@
                 ]
             },
             {
-                "name": "EsDeeKid",
-                "playcount": "57011058",
-                "listeners": "901265",
-                "mbid": "3d253cbd-fb66-4752-a8d1-f9b0db75bcea",
-                "url": "https://www.last.fm/music/EsDeeKid",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Muse",
-                "playcount": "566246445",
-                "listeners": "6342842",
-                "mbid": "9c9f1380-2516-4fc9-a3e6-f9f61941d090",
-                "url": "https://www.last.fm/music/Muse",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
                 "name": "David Bowie",
-                "playcount": "400715092",
-                "listeners": "5556721",
+                "playcount": "401894963",
+                "listeners": "5568134",
                 "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
                 "url": "https://www.last.fm/music/David+Bowie",
                 "streamable": "0",
@@ -452,8 +482,8 @@
             },
             {
                 "name": "NewJeans",
-                "playcount": "324989984",
-                "listeners": "1780042",
+                "playcount": "326842894",
+                "listeners": "1790622",
                 "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
                 "url": "https://www.last.fm/music/NewJeans",
                 "streamable": "0",
@@ -481,159 +511,9 @@
                 ]
             },
             {
-                "name": "Miley Cyrus",
-                "playcount": "297040450",
-                "listeners": "4798784",
-                "mbid": "7e9bd05a-117f-4cce-87bc-e011527a8b18",
-                "url": "https://www.last.fm/music/Miley+Cyrus",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Yeat",
-                "playcount": "362838739",
-                "listeners": "1594885",
-                "mbid": "9e6a6a2f-f696-4cc0-87f1-e4f712e46802",
-                "url": "https://www.last.fm/music/Yeat",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Cocteau Twins",
-                "playcount": "166807588",
-                "listeners": "2267317",
-                "mbid": "000fc734-b7e1-4a01-92d1-f544261b43f5",
-                "url": "https://www.last.fm/music/Cocteau+Twins",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "XXXTENTACION",
-                "playcount": "337572616",
-                "listeners": "2788341",
-                "mbid": "61af87f4-16ee-4431-8504-cc06187079fb",
-                "url": "https://www.last.fm/music/XXXTENTACION",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "One Direction",
-                "playcount": "313397682",
-                "listeners": "3231374",
-                "mbid": "1a425bbd-cca4-4b2c-aeb7-71cb176c828a",
-                "url": "https://www.last.fm/music/One+Direction",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
                 "name": "Doechii",
-                "playcount": "93792667",
-                "listeners": "1990497",
+                "playcount": "94838121",
+                "listeners": "2003841",
                 "mbid": "9f75277c-b283-4846-ac8c-f932255cd0ac",
                 "url": "https://www.last.fm/music/Doechii",
                 "streamable": "0",
@@ -661,101 +541,11 @@
                 ]
             },
             {
-                "name": "Nelly Furtado",
-                "playcount": "115984653",
-                "listeners": "4807512",
-                "mbid": "13655113-cd16-4b43-9dca-cadbbf26ee05",
-                "url": "https://www.last.fm/music/Nelly+Furtado",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Lil Peep",
-                "playcount": "366839861",
-                "listeners": "2160595",
-                "mbid": "92da4329-77a4-425c-8e92-4280110cace9",
-                "url": "https://www.last.fm/music/Lil+Peep",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Metallica",
-                "playcount": "530551874",
-                "listeners": "5142464",
-                "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
-                "url": "https://www.last.fm/music/Metallica",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Lil Wayne",
-                "playcount": "165616361",
-                "listeners": "3543063",
-                "mbid": "ac9a487a-d9d2-4f27-bb23-0f4686488345",
-                "url": "https://www.last.fm/music/Lil+Wayne",
+                "name": "Cocteau Twins",
+                "playcount": "168364890",
+                "listeners": "2279405",
+                "mbid": "000fc734-b7e1-4a01-92d1-f544261b43f5",
+                "url": "https://www.last.fm/music/Cocteau+Twins",
                 "streamable": "0",
                 "image": [
                     {
@@ -782,8 +572,8 @@
             },
             {
                 "name": "Foo Fighters",
-                "playcount": "360660026",
-                "listeners": "6327345",
+                "playcount": "361538131",
+                "listeners": "6340166",
                 "mbid": "67f66c07-6e61-4026-ade5-7e782fad3a5d",
                 "url": "https://www.last.fm/music/Foo+Fighters",
                 "streamable": "0",
@@ -811,11 +601,101 @@
                 ]
             },
             {
-                "name": "Beach House",
-                "playcount": "241777710",
-                "listeners": "3486521",
-                "mbid": "d5cc67b8-1cc4-453b-96e8-44487acdebea",
-                "url": "https://www.last.fm/music/Beach+House",
+                "name": "XXXTENTACION",
+                "playcount": "339034798",
+                "listeners": "2798466",
+                "mbid": "61af87f4-16ee-4431-8504-cc06187079fb",
+                "url": "https://www.last.fm/music/XXXTENTACION",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Lil Peep",
+                "playcount": "369495920",
+                "listeners": "2172419",
+                "mbid": "92da4329-77a4-425c-8e92-4280110cace9",
+                "url": "https://www.last.fm/music/Lil+Peep",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "EsDeeKid",
+                "playcount": "58870482",
+                "listeners": "920151",
+                "mbid": "3d253cbd-fb66-4752-a8d1-f9b0db75bcea",
+                "url": "https://www.last.fm/music/EsDeeKid",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "One Direction",
+                "playcount": "314852399",
+                "listeners": "3242379",
+                "mbid": "1a425bbd-cca4-4b2c-aeb7-71cb176c828a",
+                "url": "https://www.last.fm/music/One+Direction",
                 "streamable": "0",
                 "image": [
                     {
@@ -842,8 +722,8 @@
             },
             {
                 "name": "Conan Gray",
-                "playcount": "247192141",
-                "listeners": "2389605",
+                "playcount": "249421265",
+                "listeners": "2398848",
                 "mbid": "850a8b03-98a7-4fd3-afbd-5e5520b4ef5f",
                 "url": "https://www.last.fm/music/Conan+Gray",
                 "streamable": "0",
@@ -871,11 +751,71 @@
                 ]
             },
             {
-                "name": "The 1975",
-                "playcount": "297753201",
-                "listeners": "2622234",
-                "mbid": "5b6ebfe0-f72b-4902-bba9-74c8af0f1af0",
-                "url": "https://www.last.fm/music/The+1975",
+                "name": "Lil Wayne",
+                "playcount": "166439453",
+                "listeners": "3554165",
+                "mbid": "ac9a487a-d9d2-4f27-bb23-0f4686488345",
+                "url": "https://www.last.fm/music/Lil+Wayne",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Nelly Furtado",
+                "playcount": "116557505",
+                "listeners": "4821624",
+                "mbid": "13655113-cd16-4b43-9dca-cadbbf26ee05",
+                "url": "https://www.last.fm/music/Nelly+Furtado",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Metallica",
+                "playcount": "531965969",
+                "listeners": "5153715",
+                "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+                "url": "https://www.last.fm/music/Metallica",
                 "streamable": "0",
                 "image": [
                     {
@@ -902,8 +842,8 @@
             },
             {
                 "name": "PARTYNEXTDOOR",
-                "playcount": "166223902",
-                "listeners": "1945483",
+                "playcount": "168133730",
+                "listeners": "1953942",
                 "mbid": "f23ef341-33bd-47c1-b83c-846a78581f05",
                 "url": "https://www.last.fm/music/PARTYNEXTDOOR",
                 "streamable": "0",
@@ -931,99 +871,9 @@
                 ]
             },
             {
-                "name": "Slipknot",
-                "playcount": "358278829",
-                "listeners": "4179849",
-                "mbid": "a466c2a2-6517-42fb-a160-1087c3bafd9f",
-                "url": "https://www.last.fm/music/Slipknot",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Juice WRLD",
-                "playcount": "513753151",
-                "listeners": "2460943",
-                "mbid": "4e4ebde4-0c56-4dec-844b-6c73adcdd92d",
-                "url": "https://www.last.fm/music/Juice+WRLD",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Noah Kahan",
-                "playcount": "169332359",
-                "listeners": "1548968",
-                "mbid": "a2a3f910-b188-43e7-81d0-f1ac2a2f3e12",
-                "url": "https://www.last.fm/music/Noah+Kahan",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
                 "name": "Oasis",
-                "playcount": "324499001",
-                "listeners": "5832028",
+                "playcount": "325757325",
+                "listeners": "5845417",
                 "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
                 "url": "https://www.last.fm/music/Oasis",
                 "streamable": "0",
@@ -1051,9 +901,279 @@
                 ]
             },
             {
+                "name": "Beach House",
+                "playcount": "242857415",
+                "listeners": "3498517",
+                "mbid": "d5cc67b8-1cc4-453b-96e8-44487acdebea",
+                "url": "https://www.last.fm/music/Beach+House",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "The 1975",
+                "playcount": "299235305",
+                "listeners": "2630238",
+                "mbid": "5b6ebfe0-f72b-4902-bba9-74c8af0f1af0",
+                "url": "https://www.last.fm/music/The+1975",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Juice WRLD",
+                "playcount": "516310917",
+                "listeners": "2473933",
+                "mbid": "4e4ebde4-0c56-4dec-844b-6c73adcdd92d",
+                "url": "https://www.last.fm/music/Juice+WRLD",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Kid Cudi",
+                "playcount": "272128144",
+                "listeners": "4670379",
+                "mbid": "e0e1db18-f7ba-4dee-95ff-7ae8cf545460",
+                "url": "https://www.last.fm/music/Kid+Cudi",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Slipknot",
+                "playcount": "359720598",
+                "listeners": "4189203",
+                "mbid": "a466c2a2-6517-42fb-a160-1087c3bafd9f",
+                "url": "https://www.last.fm/music/Slipknot",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Halsey",
+                "playcount": "220610849",
+                "listeners": "2806719",
+                "mbid": "3377f3bb-60fc-4403-aea9-7e800612e060",
+                "url": "https://www.last.fm/music/Halsey",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Megan Thee Stallion",
+                "playcount": "182720858",
+                "listeners": "2308521",
+                "mbid": "ee27b2d8-648c-4a9d-a68c-e55066959975",
+                "url": "https://www.last.fm/music/Megan+Thee+Stallion",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Gunna",
+                "playcount": "179188002",
+                "listeners": "1794730",
+                "mbid": "100b8734-f4f0-4536-9960-47f7c59d1b4c",
+                "url": "https://www.last.fm/music/Gunna",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Jung Kook",
+                "playcount": "803948841",
+                "listeners": "1462029",
+                "mbid": "23c8056b-ee13-4cfc-a772-2f5292e35bb5",
+                "url": "https://www.last.fm/music/Jung+Kook",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
                 "name": "21 Savage",
-                "playcount": "217065467",
-                "listeners": "2279907",
+                "playcount": "217965959",
+                "listeners": "2286654",
                 "mbid": "37b2cb82-ef79-4d46-a184-a549450aa231",
                 "url": "https://www.last.fm/music/21+Savage",
                 "streamable": "0",
@@ -1082,8 +1202,8 @@
             },
             {
                 "name": "Limp Bizkit",
-                "playcount": "176323374",
-                "listeners": "4092420",
+                "playcount": "177374816",
+                "listeners": "4103818",
                 "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
                 "url": "https://www.last.fm/music/Limp+Bizkit",
                 "streamable": "0",
@@ -1111,11 +1231,41 @@
                 ]
             },
             {
-                "name": "BLACKPINK",
-                "playcount": "308754305",
-                "listeners": "1966692",
-                "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
-                "url": "https://www.last.fm/music/BLACKPINK",
+                "name": "MGMT",
+                "playcount": "218245136",
+                "listeners": "5237547",
+                "mbid": "c485632c-b784-4ee9-8ea1-c5fb365681fc",
+                "url": "https://www.last.fm/music/MGMT",
+                "streamable": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "mega"
+                    }
+                ]
+            },
+            {
+                "name": "Melanie Martinez",
+                "playcount": "244312249",
+                "listeners": "2286563",
+                "mbid": "0df563ec-1a79-486e-a46d-5b9862a40311",
+                "url": "https://www.last.fm/music/Melanie+Martinez",
                 "streamable": "0",
                 "image": [
                     {
@@ -1142,8 +1292,8 @@
             },
             {
                 "name": "Adele",
-                "playcount": "316036611",
-                "listeners": "5579400",
+                "playcount": "316831160",
+                "listeners": "5590412",
                 "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
                 "url": "https://www.last.fm/music/Adele",
                 "streamable": "0",
@@ -1172,8 +1322,8 @@
             },
             {
                 "name": "Gracie Abrams",
-                "playcount": "282923733",
-                "listeners": "1782677",
+                "playcount": "284567258",
+                "listeners": "1790145",
                 "mbid": "f7441bc7-d7de-4813-a2fc-31a4033d396d",
                 "url": "https://www.last.fm/music/Gracie+Abrams",
                 "streamable": "0",
@@ -1201,11 +1351,11 @@
                 ]
             },
             {
-                "name": "MGMT",
-                "playcount": "217627457",
-                "listeners": "5224906",
-                "mbid": "c485632c-b784-4ee9-8ea1-c5fb365681fc",
-                "url": "https://www.last.fm/music/MGMT",
+                "name": "Noah Kahan",
+                "playcount": "171291811",
+                "listeners": "1558766",
+                "mbid": "a2a3f910-b188-43e7-81d0-f1ac2a2f3e12",
+                "url": "https://www.last.fm/music/Noah+Kahan",
                 "streamable": "0",
                 "image": [
                     {
@@ -1231,161 +1381,11 @@
                 ]
             },
             {
-                "name": "Shakira",
-                "playcount": "177249725",
-                "listeners": "4823260",
-                "mbid": "bf24ca37-25f4-4e34-9aec-460b94364cfc",
-                "url": "https://www.last.fm/music/Shakira",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Gunna",
-                "playcount": "177883390",
-                "listeners": "1787439",
-                "mbid": "100b8734-f4f0-4536-9960-47f7c59d1b4c",
-                "url": "https://www.last.fm/music/Gunna",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Troye Sivan",
-                "playcount": "168080534",
-                "listeners": "2424344",
-                "mbid": "e5712ceb-c37a-4c49-a11c-ccf4e21852d4",
-                "url": "https://www.last.fm/music/Troye+Sivan",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Alex G",
-                "playcount": "249485544",
-                "listeners": "2037265",
-                "mbid": "7545a8ca-a3c9-490f-93f9-68886dcddff1",
-                "url": "https://www.last.fm/music/Alex+G",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "b\u00f4a",
-                "playcount": "80364633",
-                "listeners": "2078408",
-                "mbid": "ca1dcba2-792c-4550-abf2-7b45396e81ca",
-                "url": "https://www.last.fm/music/b%C3%B4a",
-                "streamable": "0",
-                "image": [
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "small"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "medium"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "large"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "extralarge"
-                    },
-                    {
-                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-                        "size": "mega"
-                    }
-                ]
-            },
-            {
-                "name": "Evanescence",
-                "playcount": "215332875",
-                "listeners": "4458337",
-                "mbid": "f4a31f0a-51dd-4fa7-986d-3095c40c5ed9",
-                "url": "https://www.last.fm/music/Evanescence",
+                "name": "OutKast",
+                "playcount": "147663041",
+                "listeners": "4944889",
+                "mbid": "73fdb566-a9b1-494c-9f32-51768ec9fd27",
+                "url": "https://www.last.fm/music/OutKast",
                 "streamable": "0",
                 "image": [
                     {
@@ -1412,8 +1412,8 @@
             },
             {
                 "name": "Tory Lanez",
-                "playcount": "145378879",
-                "listeners": "1938412",
+                "playcount": "146576733",
+                "listeners": "1947033",
                 "mbid": "5b8ec72b-9e39-4a06-a2bf-964166b92a71",
                 "url": "https://www.last.fm/music/Tory+Lanez",
                 "streamable": "0",
@@ -1442,8 +1442,8 @@
             },
             {
                 "name": "Billy Joel",
-                "playcount": "127187015",
-                "listeners": "4014528",
+                "playcount": "127853728",
+                "listeners": "4025127",
                 "mbid": "64b94289-9474-4d43-8c93-918ccc1920d1",
                 "url": "https://www.last.fm/music/Billy+Joel",
                 "streamable": "0",
@@ -1471,11 +1471,11 @@
                 ]
             },
             {
-                "name": "Phoebe Bridgers",
-                "playcount": "285964470",
-                "listeners": "2130097",
-                "mbid": "96855c21-b832-4366-ba12-0d2330c36a86",
-                "url": "https://www.last.fm/music/Phoebe+Bridgers",
+                "name": "Alex G",
+                "playcount": "251182104",
+                "listeners": "2045810",
+                "mbid": "7545a8ca-a3c9-490f-93f9-68886dcddff1",
+                "url": "https://www.last.fm/music/Alex+G",
                 "streamable": "0",
                 "image": [
                     {
