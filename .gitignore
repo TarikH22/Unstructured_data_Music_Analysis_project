@@ -6,11 +6,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Logs
-logs/*
-*.log
-!logs/pipeline.log
-
 # Data (large files / fetched content)
 data/raw/images/
 data/raw/video/*.mp4

@@ -339,3 +339,385 @@
 2026-03-29 19:34:31,161 - INFO - Saved document extraction: coldplay_my_universe_review.txt (txt)
 2026-03-29 19:34:31,161 - INFO - Saved 6 document extraction records
 2026-03-29 19:34:31,161 - INFO - Pipeline finished successfully
+2026-04-07 23:38:13,125 - INFO - Starting pipeline...
+2026-04-07 23:38:13,964 - INFO - Fetched 150 artists from API
+2026-04-07 23:38:14,000 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,001 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,001 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,002 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,004 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,005 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,007 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,007 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,008 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,008 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,009 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,009 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,010 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,010 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,011 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,011 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,012 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,012 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,012 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,014 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,014 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,015 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,015 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,015 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,017 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,019 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,019 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,023 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,028 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,030 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,031 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,032 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,033 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,034 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,034 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,035 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,036 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,037 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,037 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,037 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,038 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,038 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,038 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,039 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,039 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,039 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,040 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,040 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,042 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,042 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,043 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,043 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,043 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,044 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,044 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,045 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,045 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,045 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,046 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,046 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,047 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,047 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,047 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,048 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,048 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,048 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,052 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,052 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,053 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,054 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,054 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,054 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,055 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,055 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,056 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,056 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,057 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,059 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,059 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,059 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,060 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,060 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,061 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,061 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,061 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,062 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,062 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,063 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,063 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,063 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,064 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,064 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,065 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,066 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,067 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,067 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,068 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,068 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,069 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,070 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,070 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,070 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,070 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,071 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,071 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,072 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,072 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,073 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,073 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,073 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,074 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,075 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,075 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,076 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,076 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,077 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,078 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,079 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,080 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,081 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,081 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,082 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,083 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,084 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,085 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,085 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,086 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,087 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,088 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,090 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,091 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,092 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,092 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,093 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,094 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,094 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,095 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,095 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,095 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,095 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,096 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,096 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,097 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,097 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,097 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,097 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,098 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,098 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,098 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,099 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:14,242 - INFO - Started uploading artists_page_1.json to music-pipeline-bucket
+2026-04-07 23:38:14,437 - INFO - Successfully uploaded artists_page_1.json to music-pipeline-bucket
+2026-04-07 23:38:14,437 - INFO - Extracting PDF: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/documents/LastFM_Normal.pdf
+2026-04-07 23:38:14,490 - INFO - Extracting PDF: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/documents/LastFM_TwoColumn.pdf
+2026-04-07 23:38:14,506 - INFO - Extracting DOCX: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/documents/LastFM_Normal.docx
+2026-04-07 23:38:14,512 - INFO - Extracting XLSX: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/documents/LastFM_Data.xlsx
+2026-04-07 23:38:14,521 - INFO - Extracted 6 document records
+2026-04-07 23:38:14,524 - INFO - Saved document extraction: LastFM_Normal.pdf (pdf)
+2026-04-07 23:38:14,524 - INFO - Saved document extraction: LastFM_Normal.pdf (pdf)
+2026-04-07 23:38:14,526 - INFO - Saved document extraction: LastFM_TwoColumn.pdf (pdf)
+2026-04-07 23:38:14,526 - INFO - Saved document extraction: LastFM_Normal.docx (docx)
+2026-04-07 23:38:14,527 - INFO - Saved document extraction: LastFM_Data.xlsx (xlsx)
+2026-04-07 23:38:14,528 - INFO - Saved document extraction: coldplay_my_universe_review.txt (txt)
+2026-04-07 23:38:14,528 - INFO - Saved 6 document extraction records
+2026-04-07 23:38:14,537 - INFO - Scraped local HTML samples: 6 records
+2026-04-07 23:38:15,943 - INFO - Dynamic JSON endpoint records: 10
+2026-04-07 23:38:15,996 - INFO - Saved document extraction: local_page_1.html (unknown)
+2026-04-07 23:38:15,998 - INFO - Saved document extraction: local_page_1.html (unknown)
+2026-04-07 23:38:16,000 - INFO - Saved document extraction: local_page_2.html (unknown)
+2026-04-07 23:38:16,001 - INFO - Saved document extraction: local_page_2.html (unknown)
+2026-04-07 23:38:16,003 - INFO - Saved document extraction: local_page_3.html (unknown)
+2026-04-07 23:38:16,005 - INFO - Saved document extraction: local_page_3.html (unknown)
+2026-04-07 23:38:16,007 - INFO - Saved document extraction: dynamic_endpoint.json (unknown)
+2026-04-07 23:38:16,009 - INFO - Saved document extraction: dynamic_endpoint.json (unknown)
+2026-04-07 23:38:16,011 - INFO - Saved document extraction: dynamic_endpoint.json (unknown)
+2026-04-07 23:38:16,011 - INFO - Saved document extraction: dynamic_endpoint.json (unknown)
+2026-04-07 23:38:16,012 - INFO - Saved document extraction: dynamic_endpoint.json (unknown)
+2026-04-07 23:38:16,013 - INFO - Saved document extraction: dynamic_endpoint.json (unknown)
+2026-04-07 23:38:16,014 - INFO - Saved document extraction: dynamic_endpoint.json (unknown)
+2026-04-07 23:38:16,014 - INFO - Saved document extraction: dynamic_endpoint.json (unknown)
+2026-04-07 23:38:16,016 - INFO - Saved document extraction: dynamic_endpoint.json (unknown)
+2026-04-07 23:38:16,017 - INFO - Saved document extraction: dynamic_endpoint.json (unknown)
+2026-04-07 23:38:16,017 - INFO - Saved 16 scraped web records
+2026-04-07 23:38:16,668 - INFO - OCR image extraction completed
+2026-04-07 23:38:17,707 - INFO - OCR scanned PDF extraction completed
+2026-04-07 23:38:17,734 - INFO - Saved document extraction: test_scan.png (unknown)
+2026-04-07 23:38:17,735 - INFO - Saved document extraction: test_scanned.pdf (unknown)
+2026-04-07 23:38:17,735 - INFO - Saved 2 OCR records
+2026-04-07 23:38:17,735 - INFO - Pipeline finished successfully
+2026-04-07 23:38:46,870 - INFO - Starting pipeline...
+2026-04-07 23:38:47,664 - INFO - Fetched 150 artists from API
+2026-04-07 23:38:47,674 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,675 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,676 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,678 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,680 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,681 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,683 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,687 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,688 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,689 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,691 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,692 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,693 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,694 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,695 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,696 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,697 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,698 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,699 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,700 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,701 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,703 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,705 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,708 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,710 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,712 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,714 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,717 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,720 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,722 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,723 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,724 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,725 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,726 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,727 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,728 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,730 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,731 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,732 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,734 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,736 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,737 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,740 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,741 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,743 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,745 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,747 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,749 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,751 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,753 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,756 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,759 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,761 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,764 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,766 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,768 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,771 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,772 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,775 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,777 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,779 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,781 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,784 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,786 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,788 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,790 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,792 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,794 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,796 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,797 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,798 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,799 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,800 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,802 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,804 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,808 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,809 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,810 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,811 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,812 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,813 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,814 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,815 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,816 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,817 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,818 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,823 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,825 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,826 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,827 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,828 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,829 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,830 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,831 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,832 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,834 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,836 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,838 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,840 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,842 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,844 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,845 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,847 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,848 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,850 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,851 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,854 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,857 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,860 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,861 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,862 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,863 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,863 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,864 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,865 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,866 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,867 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,868 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,870 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,871 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,872 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,873 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,873 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,874 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,875 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,876 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,877 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,877 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,878 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,878 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,879 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,880 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,881 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,881 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,882 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,882 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,882 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,883 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,883 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,884 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,885 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,886 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,886 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,887 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,888 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,888 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,889 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,890 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,891 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:47,892 - INFO - Saved record to MongoDB collection: lastfm_api
+2026-04-07 23:38:48,021 - INFO - Started uploading artists_page_1.json to music-pipeline-bucket
+2026-04-07 23:38:48,058 - INFO - Successfully uploaded artists_page_1.json to music-pipeline-bucket
+2026-04-07 23:38:48,058 - INFO - Extracting PDF: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/documents/LastFM_Normal.pdf
+2026-04-07 23:38:48,100 - INFO - Extracting PDF: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/documents/LastFM_TwoColumn.pdf
+2026-04-07 23:38:48,119 - INFO - Extracting DOCX: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/documents/LastFM_Normal.docx
+2026-04-07 23:38:48,127 - INFO - Extracting XLSX: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/documents/LastFM_Data.xlsx
+2026-04-07 23:38:48,137 - INFO - Extracted 6 document records
+2026-04-07 23:38:48,138 - INFO - Saved document extraction: LastFM_Normal.pdf (pdf)
+2026-04-07 23:38:48,139 - INFO - Saved document extraction: LastFM_Normal.pdf (pdf)
+2026-04-07 23:38:48,139 - INFO - Saved document extraction: LastFM_TwoColumn.pdf (pdf)
+2026-04-07 23:38:48,140 - INFO - Saved document extraction: LastFM_Normal.docx (docx)
+2026-04-07 23:38:48,140 - INFO - Saved document extraction: LastFM_Data.xlsx (xlsx)
+2026-04-07 23:38:48,140 - INFO - Saved document extraction: coldplay_my_universe_review.txt (txt)
+2026-04-07 23:38:48,140 - INFO - Saved 6 document extraction records
+2026-04-07 23:38:48,149 - INFO - Scraped local HTML samples: 6 records
+2026-04-07 23:38:48,945 - INFO - Dynamic JSON endpoint records: 10
+2026-04-07 23:38:48,953 - INFO - Saved document extraction: local_page_1.html (scraped)
+2026-04-07 23:38:48,955 - INFO - Saved document extraction: local_page_1.html (scraped)
+2026-04-07 23:38:48,956 - INFO - Saved document extraction: local_page_2.html (scraped)
+2026-04-07 23:38:48,956 - INFO - Saved document extraction: local_page_2.html (scraped)
+2026-04-07 23:38:48,957 - INFO - Saved document extraction: local_page_3.html (scraped)
+2026-04-07 23:38:48,958 - INFO - Saved document extraction: local_page_3.html (scraped)
+2026-04-07 23:38:48,959 - INFO - Saved document extraction: dynamic_endpoint.json (dynamic-json-endpoint)
+2026-04-07 23:38:48,959 - INFO - Saved document extraction: dynamic_endpoint.json (dynamic-json-endpoint)
+2026-04-07 23:38:48,961 - INFO - Saved document extraction: dynamic_endpoint.json (dynamic-json-endpoint)
+2026-04-07 23:38:48,962 - INFO - Saved document extraction: dynamic_endpoint.json (dynamic-json-endpoint)
+2026-04-07 23:38:48,962 - INFO - Saved document extraction: dynamic_endpoint.json (dynamic-json-endpoint)
+2026-04-07 23:38:48,963 - INFO - Saved document extraction: dynamic_endpoint.json (dynamic-json-endpoint)
+2026-04-07 23:38:48,964 - INFO - Saved document extraction: dynamic_endpoint.json (dynamic-json-endpoint)
+2026-04-07 23:38:48,965 - INFO - Saved document extraction: dynamic_endpoint.json (dynamic-json-endpoint)
+2026-04-07 23:38:48,965 - INFO - Saved document extraction: dynamic_endpoint.json (dynamic-json-endpoint)
+2026-04-07 23:38:48,966 - INFO - Saved document extraction: dynamic_endpoint.json (dynamic-json-endpoint)
+2026-04-07 23:38:48,966 - INFO - Saved 16 scraped web records
+2026-04-07 23:38:49,274 - INFO - OCR image extraction completed
+2026-04-07 23:38:49,753 - INFO - OCR scanned PDF extraction completed
+2026-04-07 23:38:49,756 - INFO - Saved document extraction: test_scan.png (ocr-image)
+2026-04-07 23:38:49,758 - INFO - Saved document extraction: test_scanned.pdf (ocr-pdf)
+2026-04-07 23:38:49,758 - INFO - Saved 2 OCR records
+2026-04-07 23:38:49,758 - INFO - Pipeline finished successfully

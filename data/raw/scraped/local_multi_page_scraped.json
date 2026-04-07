@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Coldplay",
+    "year": "2002",
+    "wins": "11",
+    "losses": "2",
+    "description": "A Rush of Blood to the Head",
+    "price": "$19.99",
+    "date": "2002-08-26",
+    "metadata": {
+      "source": "local-html",
+      "file_name": "local_page_1.html",
+      "type": "scraped",
+      "page_number": 1,
+      "extraction_timestamp": "2026-04-07T21:38:48.144622Z"
+    }
+  },
+  {
+    "name": "Radiohead",
+    "year": "1997",
+    "wins": "10",
+    "losses": "1",
+    "description": "OK Computer",
+    "price": "$17.99",
+    "date": "1997-06-16",
+    "metadata": {
+      "source": "local-html",
+      "file_name": "local_page_1.html",
+      "type": "scraped",
+      "page_number": 1,
+      "extraction_timestamp": "2026-04-07T21:38:48.145203Z"
+    }
+  },
+  {
+    "name": "Radiohead",
+    "year": "1997",
+    "wins": "10",
+    "losses": "1",
+    "description": "OK Computer",
+    "price": "$17.99",
+    "date": "1997-06-16",
+    "metadata": {
+      "source": "local-html",
+      "file_name": "local_page_2.html",
+      "type": "scraped",
+      "page_number": 2,
+      "extraction_timestamp": "2026-04-07T21:38:48.146657Z"
+    }
+  },
+  {
+    "name": "The Weeknd",
+    "year": "2020",
+    "wins": "9",
+    "losses": "3",
+    "description": "After Hours",
+    "price": "$21.99",
+    "date": "2020-03-20",
+    "metadata": {
+      "source": "local-html",
+      "file_name": "local_page_2.html",
+      "type": "scraped",
+      "page_number": 2,
+      "extraction_timestamp": "2026-04-07T21:38:48.147160Z"
+    }
+  },
+  {
+    "name": "The Weeknd",
+    "year": "2020",
+    "wins": "9",
+    "losses": "3",
+    "description": "After Hours",
+    "price": "$21.99",
+    "date": "2020-03-20",
+    "metadata": {
+      "source": "local-html",
+      "file_name": "local_page_3.html",
+      "type": "scraped",
+      "page_number": 3,
+      "extraction_timestamp": "2026-04-07T21:38:48.148438Z"
+    }
+  },
+  {
+    "name": "Taylor Swift",
+    "year": "2022",
+    "wins": "12",
+    "losses": "0",
+    "description": "Midnights",
+    "price": "$24.99",
+    "date": "2022-10-21",
+    "metadata": {
+      "source": "local-html",
+      "file_name": "local_page_3.html",
+      "type": "scraped",
+      "page_number": 3,
+      "extraction_timestamp": "2026-04-07T21:38:48.148935Z"
+    }
+  }
+]

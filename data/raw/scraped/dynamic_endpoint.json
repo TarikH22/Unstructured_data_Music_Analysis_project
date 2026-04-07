@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Yellow",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2000-06-26T07:00:00Z",
+    "link": "https://music.apple.com/us/album/yellow/1122782080?i=1122782283&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-07T21:38:48.943944Z"
+    }
+  },
+  {
+    "title": "Viva La Vida",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2008-05-25T07:00:00Z",
+    "link": "https://music.apple.com/us/album/viva-la-vida/1122773394?i=1122773680&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-07T21:38:48.943967Z"
+    }
+  },
+  {
+    "title": "A Sky Full of Stars",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2014-05-02T07:00:00Z",
+    "link": "https://music.apple.com/us/album/a-sky-full-of-stars/829909653?i=829910927&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-07T21:38:48.943973Z"
+    }
+  },
+  {
+    "title": "The Scientist",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2002-08-26T07:00:00Z",
+    "link": "https://music.apple.com/us/album/the-scientist/1122775993?i=1122776155&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-07T21:38:48.943978Z"
+    }
+  },
+  {
+    "title": "Sparks",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2000-07-10T07:00:00Z",
+    "link": "https://music.apple.com/us/album/sparks/1122782080?i=1122782281&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-07T21:38:48.943983Z"
+    }
+  },
+  {
+    "title": "Clocks",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2002-08-26T07:00:00Z",
+    "link": "https://music.apple.com/us/album/clocks/1122775993?i=1122776156&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-07T21:38:48.943988Z"
+    }
+  },
+  {
+    "title": "Fix You",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2005-06-06T07:00:00Z",
+    "link": "https://music.apple.com/us/album/fix-you/1123076757?i=1123076826&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-07T21:38:48.943993Z"
+    }
+  },
+  {
+    "title": "Paradise",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2011-09-12T07:00:00Z",
+    "link": "https://music.apple.com/us/album/paradise/726372830?i=726373148&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-07T21:38:48.943998Z"
+    }
+  },
+  {
+    "title": "Something Just Like This",
+    "description": "The Chainsmokers & Coldplay",
+    "price": "1.29",
+    "date": "2017-02-22T08:00:00Z",
+    "link": "https://music.apple.com/us/album/something-just-like-this/1207120422?i=1207120448&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-07T21:38:48.944002Z"
+    }
+  },
+  {
+    "title": "Adventure of a Lifetime",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2015-11-06T08:00:00Z",
+    "link": "https://music.apple.com/us/album/adventure-of-a-lifetime/1053933969?i=1053934846&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-07T21:38:48.944041Z"
+    }
+  }
+]
