@@ -21,6 +21,9 @@ def save_to_mongo(data, collection_name="raw_artists"):
 def save_document_to_mongo(data, collection_name="document_extractions"):
     try:
         metadata = data.get("metadata", {})
+        if metadata.get("type") and not metadata.get("document_type"):
+            metadata["document_type"] = metadata["type"]
+            data["metadata"] = metadata
         required_fields = ["file_name", "document_type", "source", "extraction_timestamp"]
         missing = [field for field in required_fields if not metadata.get(field)]
         if missing:

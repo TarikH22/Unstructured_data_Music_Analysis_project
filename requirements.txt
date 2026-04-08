@@ -8,3 +8,9 @@ python-docx
 openpyxl
 chardet
 Pillow
+beautifulsoup4
+lxml
+selenium
+playwright
+pytesseract
+pdf2image
