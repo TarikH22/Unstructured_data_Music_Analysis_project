@@ -9,7 +9,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-07T21:38:48.943944Z"
+      "extraction_timestamp": "2026-04-09T19:23:37.618560Z"
     }
   },
   {
@@ -22,20 +22,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-07T21:38:48.943967Z"
-    }
-  },
-  {
-    "title": "A Sky Full of Stars",
-    "description": "Coldplay",
-    "price": "1.29",
-    "date": "2014-05-02T07:00:00Z",
-    "link": "https://music.apple.com/us/album/a-sky-full-of-stars/829909653?i=829910927&uo=4",
-    "metadata": {
-      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
-      "file_name": "dynamic_endpoint.json",
-      "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-07T21:38:48.943973Z"
+      "extraction_timestamp": "2026-04-09T19:23:37.618602Z"
     }
   },
   {
@@ -48,7 +35,20 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-07T21:38:48.943978Z"
+      "extraction_timestamp": "2026-04-09T19:23:37.618609Z"
+    }
+  },
+  {
+    "title": "A Sky Full of Stars",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2014-05-02T07:00:00Z",
+    "link": "https://music.apple.com/us/album/a-sky-full-of-stars/829909653?i=829910927&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-09T19:23:37.618614Z"
     }
   },
   {
@@ -61,7 +61,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-07T21:38:48.943983Z"
+      "extraction_timestamp": "2026-04-09T19:23:37.618619Z"
     }
   },
   {
@@ -74,7 +74,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-07T21:38:48.943988Z"
+      "extraction_timestamp": "2026-04-09T19:23:37.618624Z"
     }
   },
   {
@@ -87,7 +87,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-07T21:38:48.943993Z"
+      "extraction_timestamp": "2026-04-09T19:23:37.618629Z"
     }
   },
   {
@@ -100,7 +100,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-07T21:38:48.943998Z"
+      "extraction_timestamp": "2026-04-09T19:23:37.618634Z"
     }
   },
   {
@@ -113,7 +113,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-07T21:38:48.944002Z"
+      "extraction_timestamp": "2026-04-09T19:23:37.618639Z"
     }
   },
   {
@@ -126,7 +126,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-07T21:38:48.944041Z"
+      "extraction_timestamp": "2026-04-09T19:23:37.618644Z"
     }
   }
 ]
