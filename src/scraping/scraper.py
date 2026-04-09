@@ -13,6 +13,7 @@ from utils.logger import logger
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 RAW_HTML_DIR = os.path.join(ROOT_DIR, "data", "raw", "html")
 RAW_SCRAPED_DIR = os.path.join(ROOT_DIR, "data", "raw", "scraped")
+REQUEST_DELAY_SECONDS = 1.5
 
 
 def _ensure_dirs():
@@ -97,6 +98,7 @@ def scrape_single_page(url, page_number=1):
         logger.warning(f"robots.txt disallows scraping or is unreachable: {url}")
         return []
 
+    time.sleep(REQUEST_DELAY_SECONDS)
     response = requests.get(url, headers=get_headers(DEFAULT_USER_AGENT), timeout=20)
     response.raise_for_status()
 
@@ -121,7 +123,7 @@ def scrape_multi_page(base_url, pages=3):
             all_records.extend(page_records)
         except Exception as e:
             logger.error(f"Failed scraping page {page} ({url}): {e}")
-        time.sleep(1.5)
+        time.sleep(REQUEST_DELAY_SECONDS)
 
     save_scraped_json(all_records, "multi_page_scraped.json")
     logger.info(f"Scraped multi-page set: {len(all_records)} records")

@@ -2,7 +2,6 @@ requests
 python-dotenv
 pymongo
 boto3
-fpdf2
 pdfplumber
 python-docx
 openpyxl
@@ -14,3 +13,8 @@ selenium
 playwright
 pytesseract
 pdf2image
+tqdm
+minio
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
