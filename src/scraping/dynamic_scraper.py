@@ -11,6 +11,7 @@ from utils.logger import logger
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 RAW_SCRAPED_DIR = os.path.join(ROOT_DIR, "data", "raw", "scraped")
+REQUEST_DELAY_SECONDS = 1.5
 
 
 def _metadata(source, extraction_type, file_name=""):
@@ -31,6 +32,11 @@ def _save_json(data, file_name):
 
 
 def scrape_json_endpoint(json_endpoint):
+    if not is_allowed_by_robots(json_endpoint):
+        logger.warning(f"robots.txt disallows JSON endpoint: {json_endpoint}")
+        return []
+
+    time.sleep(REQUEST_DELAY_SECONDS)
     response = requests.get(json_endpoint, headers=get_headers(DEFAULT_USER_AGENT), timeout=20)
     response.raise_for_status()
     data = response.json()
@@ -71,12 +77,24 @@ def scrape_with_playwright(url):
             page.goto(url, wait_until="networkidle", timeout=30000)
             items = page.locator("article, .quote, .card, .item").all()
             for item in items[:20]:
-                title = item.locator("h1, h2, h3, .title, .text").first.inner_text(timeout=2000)
-                desc = item.locator("p, .description, .author").first.inner_text(timeout=2000)
+                title = ""
+                desc = ""
+                try:
+                    title = (item.locator("h1, h2, h3, .title, .text").first.text_content(timeout=2000) or "").strip()
+                except Exception:
+                    title = ""
+                try:
+                    desc = (item.locator("p, .description, .author").first.text_content(timeout=2000) or "").strip()
+                except Exception:
+                    desc = ""
+
+                if not title and not desc:
+                    continue
+
                 records.append(
                     {
-                        "title": title.strip() if title else "",
-                        "description": desc.strip() if desc else "",
+                        "title": title,
+                        "description": desc,
                         "metadata": _metadata(url, "dynamic-playwright", "dynamic_playwright.json"),
                     }
                 )
@@ -105,6 +123,7 @@ def scrape_with_selenium(url):
         options.add_argument("--headless=new")
         options.add_argument(f"user-agent={DEFAULT_USER_AGENT}")
         driver = webdriver.Chrome(options=options)
+        time.sleep(REQUEST_DELAY_SECONDS)
         driver.get(url)
         time.sleep(2)
         elements = driver.find_elements("css selector", "article, .quote, .card, .item")
@@ -136,13 +155,16 @@ def scrape_dynamic_content(
 ):
     if is_allowed_by_robots(page_url):
         try:
-            return scrape_json_endpoint(json_endpoint)
+            json_records = scrape_json_endpoint(json_endpoint)
+            if json_records:
+                return json_records
         except Exception as e:
             logger.warning(f"JSON endpoint strategy failed: {e}")
-            playwright_records = scrape_with_playwright(page_url)
-            if playwright_records:
-                return playwright_records
-            return scrape_with_selenium(page_url)
+
+        playwright_records = scrape_with_playwright(page_url)
+        if playwright_records:
+            return playwright_records
+        return scrape_with_selenium(page_url)
 
     logger.warning(f"robots.txt disallows or blocks target: {page_url}")
     return []

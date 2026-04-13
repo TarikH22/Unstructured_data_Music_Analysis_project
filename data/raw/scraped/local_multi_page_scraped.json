@@ -12,7 +12,7 @@
       "file_name": "local_page_1.html",
       "type": "scraped",
       "page_number": 1,
-      "extraction_timestamp": "2026-04-07T21:38:48.144622Z"
+      "extraction_timestamp": "2026-04-09T19:23:34.571667Z"
     }
   },
   {
@@ -28,7 +28,7 @@
       "file_name": "local_page_1.html",
       "type": "scraped",
       "page_number": 1,
-      "extraction_timestamp": "2026-04-07T21:38:48.145203Z"
+      "extraction_timestamp": "2026-04-09T19:23:34.572166Z"
     }
   },
   {
@@ -44,7 +44,7 @@
       "file_name": "local_page_2.html",
       "type": "scraped",
       "page_number": 2,
-      "extraction_timestamp": "2026-04-07T21:38:48.146657Z"
+      "extraction_timestamp": "2026-04-09T19:23:34.573523Z"
     }
   },
   {
@@ -60,7 +60,7 @@
       "file_name": "local_page_2.html",
       "type": "scraped",
       "page_number": 2,
-      "extraction_timestamp": "2026-04-07T21:38:48.147160Z"
+      "extraction_timestamp": "2026-04-09T19:23:34.574080Z"
     }
   },
   {
@@ -76,7 +76,7 @@
       "file_name": "local_page_3.html",
       "type": "scraped",
       "page_number": 3,
-      "extraction_timestamp": "2026-04-07T21:38:48.148438Z"
+      "extraction_timestamp": "2026-04-09T19:23:34.575320Z"
     }
   },
   {
@@ -92,7 +92,7 @@
       "file_name": "local_page_3.html",
       "type": "scraped",
       "page_number": 3,
-      "extraction_timestamp": "2026-04-07T21:38:48.148935Z"
+      "extraction_timestamp": "2026-04-09T19:23:34.575811Z"
     }
   }
 ]
