@@ -12,7 +12,7 @@
       "file_name": "local_page_1.html",
       "type": "scraped",
       "page_number": 1,
-      "extraction_timestamp": "2026-04-09T19:23:34.571667Z"
+      "extraction_timestamp": "2026-04-19T16:10:53.963613Z"
     }
   },
   {
@@ -28,7 +28,7 @@
       "file_name": "local_page_1.html",
       "type": "scraped",
       "page_number": 1,
-      "extraction_timestamp": "2026-04-09T19:23:34.572166Z"
+      "extraction_timestamp": "2026-04-19T16:10:53.963891Z"
     }
   },
   {
@@ -44,7 +44,7 @@
       "file_name": "local_page_2.html",
       "type": "scraped",
       "page_number": 2,
-      "extraction_timestamp": "2026-04-09T19:23:34.573523Z"
+      "extraction_timestamp": "2026-04-19T16:10:53.964820Z"
     }
   },
   {
@@ -60,7 +60,7 @@
       "file_name": "local_page_2.html",
       "type": "scraped",
       "page_number": 2,
-      "extraction_timestamp": "2026-04-09T19:23:34.574080Z"
+      "extraction_timestamp": "2026-04-19T16:10:53.965094Z"
     }
   },
   {
@@ -76,7 +76,7 @@
       "file_name": "local_page_3.html",
       "type": "scraped",
       "page_number": 3,
-      "extraction_timestamp": "2026-04-09T19:23:34.575320Z"
+      "extraction_timestamp": "2026-04-19T16:10:53.966007Z"
     }
   },
   {
@@ -92,7 +92,7 @@
       "file_name": "local_page_3.html",
       "type": "scraped",
       "page_number": 3,
-      "extraction_timestamp": "2026-04-09T19:23:34.575811Z"
+      "extraction_timestamp": "2026-04-19T16:10:53.966284Z"
     }
   },
   {
@@ -105,7 +105,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-09T19:23:37.618560Z"
+      "extraction_timestamp": "2026-04-19T16:10:57.406227Z"
     }
   },
   {
@@ -118,20 +118,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-09T19:23:37.618602Z"
-    }
-  },
-  {
-    "title": "The Scientist",
-    "description": "Coldplay",
-    "price": "1.29",
-    "date": "2002-08-26T07:00:00Z",
-    "link": "https://music.apple.com/us/album/the-scientist/1122775993?i=1122776155&uo=4",
-    "metadata": {
-      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
-      "file_name": "dynamic_endpoint.json",
-      "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-09T19:23:37.618609Z"
+      "extraction_timestamp": "2026-04-19T16:10:57.406268Z"
     }
   },
   {
@@ -144,7 +131,20 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-09T19:23:37.618614Z"
+      "extraction_timestamp": "2026-04-19T16:10:57.406282Z"
+    }
+  },
+  {
+    "title": "The Scientist",
+    "description": "Coldplay",
+    "price": "1.29",
+    "date": "2002-08-26T07:00:00Z",
+    "link": "https://music.apple.com/us/album/the-scientist/1122775993?i=1122776155&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-04-19T16:10:57.406292Z"
     }
   },
   {
@@ -157,7 +157,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-09T19:23:37.618619Z"
+      "extraction_timestamp": "2026-04-19T16:10:57.406303Z"
     }
   },
   {
@@ -170,7 +170,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-09T19:23:37.618624Z"
+      "extraction_timestamp": "2026-04-19T16:10:57.406314Z"
     }
   },
   {
@@ -183,7 +183,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-09T19:23:37.618629Z"
+      "extraction_timestamp": "2026-04-19T16:10:57.406325Z"
     }
   },
   {
@@ -196,7 +196,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-09T19:23:37.618634Z"
+      "extraction_timestamp": "2026-04-19T16:10:57.406335Z"
     }
   },
   {
@@ -209,7 +209,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-09T19:23:37.618639Z"
+      "extraction_timestamp": "2026-04-19T16:10:57.406345Z"
     }
   },
   {
@@ -222,7 +222,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-09T19:23:37.618644Z"
+      "extraction_timestamp": "2026-04-19T16:10:57.406355Z"
     }
   }
 ]

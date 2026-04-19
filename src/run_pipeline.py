@@ -4,7 +4,7 @@ import os
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 from utils.logger import logger
-from storage.mongo import save_document_to_mongo, save_image_metadata, save_to_mongo
+from storage.mongo import save_document_to_mongo, save_image_metadata, save_to_mongo, save_transcript_to_mongo
 from storage.s3 import upload_file_to_s3
 from api.client import fetch_artists
 from documents.extractor import process_documents
@@ -13,6 +13,7 @@ from scraping.dynamic_scraper import scrape_dynamic_content
 from scraping.scraper import scrape_local_html_samples, save_scraped_json
 from ocr.ocr_utils import process_ocr_assets
 from parsing.parsers import extract_artist_fields
+from media_pipeline import run_media_pipeline
 
 
 def run_pipeline():
@@ -111,6 +112,38 @@ def run_pipeline():
         except Exception as e:
             logger.error(f"Failed saving image metadata: {e}")
     logger.info(f"Saved {len(image_records)} image metadata records")
+
+    # 8. Audio/Video processing + transcription stage
+    media_summary = {}
+    try:
+        media_summary = run_media_pipeline()
+        logger.info(
+            "Media stage summary: "
+            f"audio_inspection={len(media_summary.get('audio_inspection', []))}, "
+            f"video_inspection={len(media_summary.get('video_inspection', []))}, "
+            f"transcripts={len(media_summary.get('transcripts', []))}, "
+            f"frames={len(media_summary.get('frames', []))}"
+        )
+    except Exception as e:
+        logger.error(f"Media pipeline stage failed: {e}")
+
+    # Persist generated transcript payloads if available in summary files.
+    try:
+        transcript_items = media_summary.get("transcripts", []) if media_summary else []
+        for item in transcript_items:
+            json_path = item.get("outputs", {}).get("json")
+            if not json_path:
+                continue
+            try:
+                import json
+
+                with open(json_path, "r", encoding="utf-8") as fh:
+                    payload = json.load(fh)
+                save_transcript_to_mongo(payload, "transcripts")
+            except Exception as inner_exc:
+                logger.error(f"Failed persisting transcript JSON {json_path}: {inner_exc}")
+    except Exception as e:
+        logger.error(f"Transcript persistence stage failed: {e}")
 
     logger.info("Pipeline finished")
 
