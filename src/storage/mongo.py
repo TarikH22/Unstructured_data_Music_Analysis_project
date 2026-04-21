@@ -63,3 +63,29 @@ def save_image_metadata(data, collection_name="image_metadata"):
         logger.info(f"Saved image metadata: {metadata.get('file_name')}")
     except Exception as e:
         logger.error(f"Failed to save image metadata: {e}")
+
+
+def save_transcript_to_mongo(data, collection_name="transcripts"):
+    try:
+        metadata = data.get("metadata", {})
+        required_fields = ["file_name", "source", "type", "extraction_timestamp"]
+        missing = [field for field in required_fields if not metadata.get(field)]
+        if missing:
+            for field in missing:
+                if field == "extraction_timestamp":
+                    metadata[field] = datetime.utcnow().isoformat() + "Z"
+                elif field == "file_name":
+                    metadata[field] = data.get("source_path", "unknown_source").split("/")[-1]
+                elif field == "type":
+                    metadata[field] = "transcript"
+                else:
+                    metadata[field] = "unknown"
+            data["metadata"] = metadata
+
+        collection = db[collection_name]
+        collection.insert_one(data)
+        logger.info(
+            f"Saved transcript: {metadata.get('file_name')} segments={len(data.get('segments', []))}"
+        )
+    except Exception as e:
+        logger.error(f"Failed to save transcript: {e}")
