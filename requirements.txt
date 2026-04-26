@@ -1,6 +1,9 @@
 requests
 python-dotenv
 pymongo
+numpy>=1.26.0
+pandas>=2.1.0
+matplotlib>=3.8.0
 boto3
 pdfplumber
 python-docx
@@ -22,8 +25,3 @@ pydub>=0.25.1
 moviepy>=2.0.0
 faster-whisper>=1.0.0
 opencv-python>=4.10.0
-
-pydub
-moviepy
-faster-whisper
-opencv-python
