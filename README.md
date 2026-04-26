@@ -30,6 +30,12 @@ Use this notebook as the lab deliverable:
 
 - [Movie Analytics Lab Notebook](docs/movie_analytics_lab.ipynb)
 
+### Visible Logs (Assignment 7)
+
+Analytics execution log evidence is provided here:
+
+- [Assignment 7 Pipeline Log Evidence](docs/assignment7_pipeline_log_evidence.txt)
+
 ### Run Instructions
 
 1. Install dependencies:
