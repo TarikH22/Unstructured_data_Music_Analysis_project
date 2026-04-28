@@ -21,3 +21,4 @@ data/processed/
 config/google_drive/*.json
 config/google_drive/token.pickle
 .venv_broken/
+migration_instructions.md

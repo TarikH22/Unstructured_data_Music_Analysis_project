@@ -1647,3 +1647,179 @@ At least one output file must be specified
 2026-04-19 19:02:56,378 - INFO - Saved transcript: Timeline 1 obj_audio.mp3 segments=4
 2026-04-19 19:02:56,379 - INFO - Saved transcript: concatenated_sample.wav segments=0
 2026-04-19 19:02:56,380 - INFO - Saved transcript: Timeline 1 obj_audio.mp3 segments=4
+2026-04-20 18:47:14,126 - INFO - Audio inspection: api_preview.m4a (M4A) 29.98s
+2026-04-20 18:47:14,167 - INFO - Audio inspection: sample_from_api_preview.flac (FLAC) 29.98s
+2026-04-20 18:47:14,222 - INFO - Audio inspection: sample_from_api_preview.mp3 (MP3) 29.98s
+2026-04-20 18:47:14,223 - INFO - Audio inspection: sample_from_api_preview.wav (WAV) 29.98s
+2026-04-20 18:47:14,277 - INFO - Exported audio: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/audio/trimmed_sample.wav
+2026-04-20 18:47:14,371 - INFO - Exported audio: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/audio/concatenated_sample.wav
+2026-04-20 18:47:14,452 - INFO - Exported audio: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/audio/louder_sample.mp3
+2026-04-20 18:47:14,529 - INFO - Exported audio: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/audio/quieter_sample.mp3
+2026-04-20 18:47:14,579 - INFO - Exported audio: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/audio/faded_sample.flac
+2026-04-20 18:47:14,657 - INFO - Exported audio: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/audio/trimmed_converted.mp3
+2026-04-20 18:47:14,657 - INFO - Audio processing outputs generated: 6 files
+2026-04-20 18:47:26,861 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-04-20 18:47:27,492 - INFO - Loaded faster-whisper model: base (cpu/int8)
+2026-04-20 18:47:27,794 - INFO - Processing audio with duration 00:25.320
+2026-04-20 18:47:28,475 - INFO - VAD filter removed 00:00.000 of audio
+2026-04-20 18:47:28,698 - INFO - Detected language 'en' with probability 1.00
+2026-04-20 18:47:29,877 - INFO - Transcribed audio: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/audio/Timeline 1 obj_audio.mp3 (5 segments)
+2026-04-20 18:47:29,878 - INFO - Saved transcript outputs for short_Timeline 1 obj_audio
+2026-04-20 18:47:29,879 - INFO - Chunk cache hit: chunk_0000.json
+2026-04-20 18:47:29,879 - INFO - Chunked transcription progress: 1/1
+2026-04-20 18:47:29,880 - INFO - Chunked transcription completed: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/audio/concatenated_sample.wav (0 segments)
+2026-04-20 18:47:33,467 - INFO - Video inspection: Timeline 1 obj.mov duration=25.32 fps=29.97002997002997 res=1920x1080
+2026-04-20 18:47:33,480 - ERROR - Failed to inspect video /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/raw/video/sample_video.mp4: Error passing `ffmpeg -i` command output:
+
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/raw/video/sample_video.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isomavc1
+    creation_time   : 2012-03-13T08:58:06.000000Z
+    encoder         : HandBrake 0.9.6 2012022800
+  Duration: 00:00:10.03, start: 0.000000, bitrate: 629 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 10.000000
+      Metadata:
+        title           : Chapter 1
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/smpte170m/bt709, progressive), 320x176, 300 kb/s, 25 fps, 25 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+        vendor_id       : [0][0][0][0]
+        encoder         : JVT/AVC Coding
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 160 kb/s (default)
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+        vendor_id       : [0][0][0][0]
+  Stream #0:2[0x3](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 160 kb/s
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+        vendor_id       : [0][0][0][0]
+  Stream #0:3[0x4](und): Data: bin_data (text / 0x74786574), 0 kb/s
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+At least one output file must be specified
+
+2026-04-20 18:47:33,761 - INFO - Extracted audio from video: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/raw/video/Timeline 1 obj.mov -> /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/audio/Timeline 1 obj_audio.mp3
+2026-04-20 18:47:36,096 - INFO - Extracted 6 keyframes from /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/raw/video/Timeline 1 obj.mov
+2026-04-20 18:47:36,113 - ERROR - Failed extracting audio from video /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/raw/video/sample_video.mp4: Error passing `ffmpeg -i` command output:
+
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/raw/video/sample_video.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isomavc1
+    creation_time   : 2012-03-13T08:58:06.000000Z
+    encoder         : HandBrake 0.9.6 2012022800
+  Duration: 00:00:10.03, start: 0.000000, bitrate: 629 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 10.000000
+      Metadata:
+        title           : Chapter 1
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/smpte170m/bt709, progressive), 320x176, 300 kb/s, 25 fps, 25 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+        vendor_id       : [0][0][0][0]
+        encoder         : JVT/AVC Coding
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 160 kb/s (default)
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+        vendor_id       : [0][0][0][0]
+  Stream #0:2[0x3](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 160 kb/s
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+        vendor_id       : [0][0][0][0]
+  Stream #0:3[0x4](und): Data: bin_data (text / 0x74786574), 0 kb/s
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+At least one output file must be specified
+
+2026-04-20 18:47:36,125 - ERROR - Failed keyframe extraction for /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/raw/video/sample_video.mp4: Error passing `ffmpeg -i` command output:
+
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/raw/video/sample_video.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isomavc1
+    creation_time   : 2012-03-13T08:58:06.000000Z
+    encoder         : HandBrake 0.9.6 2012022800
+  Duration: 00:00:10.03, start: 0.000000, bitrate: 629 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 10.000000
+      Metadata:
+        title           : Chapter 1
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/smpte170m/bt709, progressive), 320x176, 300 kb/s, 25 fps, 25 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+        vendor_id       : [0][0][0][0]
+        encoder         : JVT/AVC Coding
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 160 kb/s (default)
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+        vendor_id       : [0][0][0][0]
+  Stream #0:2[0x3](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 160 kb/s
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+        vendor_id       : [0][0][0][0]
+  Stream #0:3[0x4](und): Data: bin_data (text / 0x74786574), 0 kb/s
+      Metadata:
+        creation_time   : 2012-03-13T08:58:06.000000Z
+At least one output file must be specified
+
+2026-04-27 00:21:10,671 - WARNING - Matplotlib is building the font cache; this may take a moment.
+2026-04-27 00:21:16,232 - INFO - Failed to extract font properties from /System/Library/Fonts/SFIndia.ttc: Can not load face (SFNT font table missing; error code 0x8e)
+2026-04-27 00:21:16,286 - INFO - Failed to extract font properties from /System/Library/Fonts/Supplemental/NISC18030.ttf: Could not set the fontsize (invalid pixel size; error code 0x17)
+2026-04-27 00:21:16,326 - INFO - Failed to extract font properties from /System/Library/Fonts/LastResort.otf: tuple indices must be integers or slices, not str
+2026-04-27 00:21:16,328 - INFO - Failed to extract font properties from /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc: Can not load face (locations (loca) table missing; error code 0x90)
+2026-04-27 00:21:16,387 - INFO - Failed to extract font properties from /System/Library/Fonts/Apple Color Emoji.ttc: Could not set the fontsize (invalid pixel size; error code 0x17)
+2026-04-27 00:21:16,445 - INFO - generated new fontManager
+2026-04-27 00:21:16,567 - INFO - Analytics stage started
+2026-04-27 00:21:28,166 - INFO - Analytics stage started
+2026-04-27 00:21:28,166 - INFO - NumPy ratings_array -> dtype=float64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:21:28,166 - INFO - NumPy popularity_arange -> dtype=int32 shape=(6,) ndim=1 size=6 itemsize=4
+2026-04-27 00:21:28,166 - INFO - NumPy timeline_linspace -> dtype=float64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:21:28,166 - INFO - NumPy budget_zeros -> dtype=int64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:21:28,166 - INFO - NumPy vote_count_ones -> dtype=int64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:21:28,166 - INFO - NumPy genre_matrix -> dtype=int16 shape=(2, 3) ndim=2 size=6 itemsize=2
+2026-04-27 00:21:48,218 - INFO - Analytics stage started
+2026-04-27 00:21:48,219 - INFO - NumPy ratings_array -> dtype=float64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:21:48,219 - INFO - NumPy popularity_arange -> dtype=int32 shape=(6,) ndim=1 size=6 itemsize=4
+2026-04-27 00:21:48,219 - INFO - NumPy timeline_linspace -> dtype=float64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:21:48,219 - INFO - NumPy budget_zeros -> dtype=int64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:21:48,219 - INFO - NumPy vote_count_ones -> dtype=int64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:21:48,219 - INFO - NumPy genre_matrix -> dtype=int16 shape=(2, 3) ndim=2 size=6 itemsize=2
+2026-04-27 00:21:51,252 - WARNING - MongoDB unavailable, using BSON export fallback: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 69ee8ffcc398ebc1b3cba69a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-04-27 00:21:51,289 - INFO - Loaded 1637 rows from 8 collections
+2026-04-27 00:21:51,305 - INFO - Saved CSV export: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/analytics/integrated_raw_export.csv
+2026-04-27 00:21:51,330 - INFO - Memory usage before=2.8732MB after=0.3985MB reduction=86.13%
+2026-04-27 00:21:51,330 - INFO - Dtype optimization memory MB: before=2.8732 after=0.3985 reduction=2.4747 MB (86.13%)
+2026-04-27 00:21:51,341 - INFO - Saved CSV export: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/analytics/integrated_optimized.csv
+2026-04-27 00:21:51,348 - INFO - EDA structure shape=(1637, 65) columns=65
+2026-04-27 00:21:51,957 - INFO - Saved 1 EDA charts
+2026-04-27 00:21:51,957 - WARNING - Google Drive upload skipped: credentials not found at /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/config/google_drive/client_secret.json
+2026-04-27 00:21:51,957 - INFO - Google Drive chart uploads attempted=1 succeeded=0
+2026-04-27 00:21:52,037 - INFO - Saved full quality report to /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/analytics/quality/full_quality_issues_report.csv
+2026-04-27 00:21:52,038 - INFO - Quality audit finished: combined_report=/Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/analytics/quality/full_quality_issues_report.csv heatmap=/Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/analytics/quality/missing_heatmap.png
+2026-04-27 00:21:52,038 - INFO - Analytics stage finished
+2026-04-27 00:22:18,438 - INFO - Analytics stage started
+2026-04-27 00:22:18,438 - INFO - NumPy ratings_array -> dtype=float64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:22:18,438 - INFO - NumPy popularity_arange -> dtype=int32 shape=(6,) ndim=1 size=6 itemsize=4
+2026-04-27 00:22:18,439 - INFO - NumPy timeline_linspace -> dtype=float64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:22:18,439 - INFO - NumPy budget_zeros -> dtype=int64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:22:18,439 - INFO - NumPy vote_count_ones -> dtype=int64 shape=(6,) ndim=1 size=6 itemsize=8
+2026-04-27 00:22:18,439 - INFO - NumPy genre_matrix -> dtype=int16 shape=(2, 3) ndim=2 size=6 itemsize=2
+2026-04-27 00:22:21,463 - WARNING - MongoDB unavailable, using BSON export fallback: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 69ee901a2b8f48f1e6a47512, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-04-27 00:22:21,496 - INFO - Loaded 1637 rows from 8 collections
+2026-04-27 00:22:21,511 - INFO - Saved CSV export: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/analytics/integrated_raw_export.csv
+2026-04-27 00:22:21,532 - INFO - Chunk stats rating_col=wins global_mean=10.166666666666666 count=18
+2026-04-27 00:22:21,546 - INFO - Memory usage before=2.8732MB after=0.3985MB reduction=86.13%
+2026-04-27 00:22:21,546 - INFO - Dtype optimization memory MB: before=2.8732 after=0.3985 reduction=2.4747 MB (86.13%)
+2026-04-27 00:22:21,556 - INFO - Saved CSV export: /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/analytics/integrated_optimized.csv
+2026-04-27 00:22:21,562 - INFO - EDA structure shape=(1637, 65) columns=65
+2026-04-27 00:22:21,842 - INFO - Saved 3 EDA charts
+2026-04-27 00:22:21,842 - WARNING - Google Drive upload skipped: credentials not found at /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/config/google_drive/client_secret.json
+2026-04-27 00:22:21,842 - INFO - Google Drive chart uploads attempted=3 succeeded=0
+2026-04-27 00:22:21,934 - INFO - Saved full quality report to /Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/analytics/quality/full_quality_issues_report.csv
+2026-04-27 00:22:21,934 - INFO - Quality audit finished: combined_report=/Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/analytics/quality/full_quality_issues_report.csv heatmap=/Users/tarikhamzic/Desktop/coding projects/Unstructured_data_Music_Analysis_project/data/processed/analytics/quality/missing_heatmap.png
+2026-04-27 00:22:21,934 - INFO - Analytics stage finished
