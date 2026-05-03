@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"2bcbd16868c546a3915d1507b6c598be","collectionName":"lastfm_json","type":"collection"}

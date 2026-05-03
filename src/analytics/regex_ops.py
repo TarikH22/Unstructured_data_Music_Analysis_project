@@ -117,3 +117,18 @@ def validate_ids(df: pd.DataFrame, column: str, source: str = "tmdb") -> pd.Data
     out = df[[column]].copy()
     out["id_valid"] = out[column].astype(str).str.match(pattern, na=False)
     return out
+
+
+# LAB 9: CLEANING HELPER FUNCTIONS
+
+def validate_date_format(series: pd.Series) -> pd.Series:
+    """Returns boolean mask where True means valid YYYY-MM-DD pattern."""
+    return series.astype(str).str.match(r'^\d{4}-\d{2}-\d{2}$')
+
+def validate_language_codes(series: pd.Series) -> pd.Series:
+    """Returns boolean mask where True means valid 2-letter language code."""
+    return series.astype(str).str.match(r'^[a-zA-Z]{2}$')
+
+def extract_numeric_from_text(series: pd.Series) -> pd.Series:
+    """Extracts first numeric group/pattern from string."""
+    return series.astype(str).str.extract(r'(\d+\.?\d*)', expand=False)

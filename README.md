@@ -2,47 +2,6 @@
 
 This repository contains a full unstructured-data pipeline, including the image processing assignment requirements (tasks 1-11).
 
-## Analytics Lab Extension
-
-This project now includes a complete analytics stage for NumPy + pandas based exploration, selection, regex analysis, and data quality auditing.
-
-### New Analytics Package
-
-- `src/analytics/__init__.py`
-- `src/analytics/numpy_ops.py`
-- `src/analytics/data_loader.py`
-- `src/analytics/explorer.py`
-- `src/analytics/selector.py`
-- `src/analytics/regex_ops.py`
-- `src/analytics/quality_report.py`
-
-### Analytics Outputs
-
-Generated artifacts are stored in:
-
-- `data/processed/analytics/`
-- `data/processed/analytics/charts/`
-- `data/processed/analytics/quality/`
-
-### Notebook Submission
-
-Use this notebook as the lab deliverable:
-
-- [Movie Analytics Lab Notebook](docs/movie_analytics_lab.ipynb)
-
-### Run Instructions
-
-1. Install dependencies:
-
-	`pip install -r requirements.txt`
-
-2. Run the end-to-end pipeline (includes analytics stage):
-
-	`python src/run_pipeline.py`
-
-3. Check logs:
-
-	`logs/pipeline.log`
 
 
 
