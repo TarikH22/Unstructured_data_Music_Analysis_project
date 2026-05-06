@@ -1,11 +1,16 @@
 from __future__ import annotations
 
+import os
 from io import StringIO
 from pathlib import Path
-from typing import Dict, Iterable
+from typing import Dict, Iterable, Optional
 
 import matplotlib.pyplot as plt
 import pandas as pd
+from google.auth.transport.requests import Request
+from google.oauth2.service_account import Credentials
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaFileUpload
 
 from utils.logger import logger
 
@@ -109,3 +114,138 @@ def save_distribution_charts(
 
     logger.info("Saved %s EDA charts", len(saved))
     return saved
+
+
+def get_google_drive_service():
+    """Authenticate with Google Drive API using service account or application default credentials."""
+    try:
+        # Try service account credentials first
+        creds_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+        if creds_path and Path(creds_path).exists():
+            creds = Credentials.from_service_account_file(
+                creds_path,
+                scopes=["https://www.googleapis.com/auth/drive"],
+            )
+            service = build("drive", "v3", credentials=creds)
+            logger.info("Google Drive service authenticated with service account")
+            return service
+    except Exception as e:
+        logger.warning("Service account authentication failed: %s", e)
+
+    try:
+        # Try application default credentials
+        from google.auth import default
+
+        creds, _ = default(scopes=["https://www.googleapis.com/auth/drive"])
+        service = build("drive", "v3", credentials=creds)
+        logger.info("Google Drive service authenticated with application default credentials")
+        return service
+    except Exception as e:
+        logger.warning("Application default credentials failed: %s", e)
+        return None
+
+
+def upload_charts_to_google_drive(
+    chart_dir: str | Path,
+    folder_name: str = "Movie Analytics EDA Charts",
+    share_email: Optional[str] = None,
+) -> Dict[str, object]:
+    """Upload EDA charts to Google Drive and optionally share with an email.
+    
+    Args:
+        chart_dir: Directory containing PNG chart files
+        folder_name: Name of Google Drive folder to create
+        share_email: Email to share the folder with (default: Amila's email from env or None)
+    
+    Returns:
+        Dictionary with folder_id, uploaded_files, and share_results
+    """
+    service = get_google_drive_service()
+    if service is None:
+        logger.warning("Could not authenticate with Google Drive. Charts saved locally but not uploaded.")
+        return {
+            "folder_id": None,
+            "uploaded_files": [],
+            "share_results": [],
+            "status": "skipped_no_credentials",
+        }
+
+    chart_path = Path(chart_dir)
+    if not chart_path.exists():
+        logger.warning("Chart directory does not exist: %s", chart_path)
+        return {"folder_id": None, "uploaded_files": [], "share_results": [], "status": "failed_no_dir"}
+
+    chart_files = sorted(chart_path.glob("*.png"))
+    if not chart_files:
+        logger.warning("No PNG files found in %s", chart_path)
+        return {"folder_id": None, "uploaded_files": [], "share_results": [], "status": "no_charts"}
+
+    try:
+        # Create folder in Google Drive
+        folder_metadata = {
+            "name": folder_name,
+            "mimeType": "application/vnd.google-apps.folder",
+        }
+        folder = service.files().create(body=folder_metadata, fields="id").execute()
+        folder_id = folder.get("id")
+        logger.info("Created Google Drive folder: %s (id=%s)", folder_name, folder_id)
+
+        # Upload charts
+        uploaded_files = []
+        for chart_file in chart_files:
+            file_metadata = {
+                "name": chart_file.name,
+                "parents": [folder_id],
+            }
+            media = MediaFileUpload(str(chart_file), mimetype="image/png")
+            uploaded = service.files().create(body=file_metadata, media_body=media, fields="id").execute()
+            uploaded_files.append({
+                "filename": chart_file.name,
+                "drive_id": uploaded.get("id"),
+            })
+            logger.info("Uploaded chart to Google Drive: %s", chart_file.name)
+
+        # Share folder with email if provided
+        share_results = []
+        if share_email:
+            try:
+                share_body = {
+                    "role": "reader",
+                    "type": "user",
+                    "emailAddress": share_email,
+                }
+                service.permissions().create(
+                    fileId=folder_id,
+                    body=share_body,
+                    fields="id",
+                ).execute()
+                share_results.append({
+                    "email": share_email,
+                    "status": "success",
+                })
+                logger.info("Shared Google Drive folder with %s", share_email)
+            except Exception as e:
+                logger.warning("Failed to share folder with %s: %s", share_email, e)
+                share_results.append({
+                    "email": share_email,
+                    "status": "failed",
+                    "error": str(e),
+                })
+
+        return {
+            "folder_id": folder_id,
+            "folder_name": folder_name,
+            "uploaded_files": uploaded_files,
+            "share_results": share_results,
+            "status": "success",
+        }
+
+    except Exception as e:
+        logger.error("Error uploading charts to Google Drive: %s", e)
+        return {
+            "folder_id": None,
+            "uploaded_files": [],
+            "share_results": [],
+            "status": "failed",
+            "error": str(e),
+        }

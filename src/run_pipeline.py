@@ -32,6 +32,7 @@ from analytics.explorer import (
     extract_release_year,
     inspect_structure,
     save_distribution_charts,
+    upload_charts_to_google_drive,
     value_counts_report,
 )
 from analytics.selector import (
@@ -52,11 +53,13 @@ from analytics.regex_ops import (
     validate_ids,
 )
 from analytics.quality_report import run_full_quality_audit
+from cleaning.clean_pipeline import run_cleaning_pipeline
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 ANALYTICS_DIR = ROOT_DIR / "data" / "processed" / "analytics"
 ANALYTICS_CHARTS_DIR = ANALYTICS_DIR / "charts"
+CLEANING_DIR = ROOT_DIR / "data" / "processed" / "cleaned"
 
 
 def _first_existing(columns, candidates):
@@ -175,7 +178,21 @@ def run_analytics_stage():
     )
     if charts:
         upload_results = upload_batch(list(charts.values()))
-        logger.info("Google Drive chart uploads attempted=%s succeeded=%s", len(charts), len(upload_results))
+        logger.info("S3 chart uploads attempted=%s succeeded=%s", len(charts), len(upload_results))
+        
+        # Upload to Google Drive and share with Amila
+        amila_email = os.getenv("AMILA_EMAIL", "amila@example.com")
+        drive_results = upload_charts_to_google_drive(
+            ANALYTICS_CHARTS_DIR,
+            folder_name="Movie Analytics EDA Charts",
+            share_email=amila_email,
+        )
+        logger.info(
+            "Google Drive chart upload status=%s folder_id=%s uploaded=%s",
+            drive_results.get("status"),
+            drive_results.get("folder_id"),
+            len(drive_results.get("uploaded_files", [])),
+        )
 
     selected_cols = [
         col
@@ -392,6 +409,17 @@ def run_pipeline():
         run_analytics_stage()
     except Exception as e:
         logger.error(f"Analytics stage failed: {e}")
+
+    # 10. Cleaning stage
+    try:
+        raw_csv_path = ANALYTICS_DIR / "integrated_raw_export.csv"
+        if raw_csv_path.exists():
+            cleaned_df = run_cleaning_pipeline(raw_csv_path, CLEANING_DIR)
+            logger.info(f"Cleaning stage finished. Clean dataset has {len(cleaned_df)} rows.")
+        else:
+            logger.warning("Cleaning stage skipped: integrated_raw_export.csv not found")
+    except Exception as e:
+        logger.error(f"Cleaning stage failed: {e}")
 
     logger.info("Pipeline finished")
 

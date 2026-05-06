@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"0a988ab10afa4fdf93a18114d5cff85d","collectionName":"lastfm_csv","type":"collection"}

@@ -82,3 +82,23 @@ def upload_batch(file_paths):
             except Exception as e:
                 logger.error(f"Failed Drive upload for {file_path}: {e}")
     return results
+
+
+def share_folder_with_email(service, folder_id, email_address, role="reader"):
+    """Share a Google Drive folder with an email address."""
+    try:
+        permission_body = {
+            "role": role,
+            "type": "user",
+            "emailAddress": email_address,
+        }
+        service.permissions().create(
+            fileId=folder_id,
+            body=permission_body,
+            fields="id",
+        ).execute()
+        logger.info(f"Shared Google Drive folder {folder_id} with {email_address}")
+        return True
+    except Exception as e:
+        logger.warning(f"Failed to share folder with {email_address}: {e}")
+        return False

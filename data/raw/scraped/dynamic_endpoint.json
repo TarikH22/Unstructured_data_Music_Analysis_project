@@ -9,7 +9,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-19T16:10:57.406227Z"
+      "extraction_timestamp": "2026-05-03T20:40:55.802244Z"
     }
   },
   {
@@ -22,7 +22,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-19T16:10:57.406268Z"
+      "extraction_timestamp": "2026-05-03T20:40:55.802275Z"
     }
   },
   {
@@ -35,7 +35,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-19T16:10:57.406282Z"
+      "extraction_timestamp": "2026-05-03T20:40:55.802283Z"
     }
   },
   {
@@ -48,7 +48,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-19T16:10:57.406292Z"
+      "extraction_timestamp": "2026-05-03T20:40:55.802289Z"
     }
   },
   {
@@ -61,7 +61,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-19T16:10:57.406303Z"
+      "extraction_timestamp": "2026-05-03T20:40:55.802295Z"
     }
   },
   {
@@ -74,7 +74,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-19T16:10:57.406314Z"
+      "extraction_timestamp": "2026-05-03T20:40:55.802300Z"
     }
   },
   {
@@ -87,7 +87,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-19T16:10:57.406325Z"
+      "extraction_timestamp": "2026-05-03T20:40:55.802306Z"
     }
   },
   {
@@ -100,20 +100,7 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-19T16:10:57.406335Z"
-    }
-  },
-  {
-    "title": "Something Just Like This",
-    "description": "The Chainsmokers & Coldplay",
-    "price": "1.29",
-    "date": "2017-02-22T08:00:00Z",
-    "link": "https://music.apple.com/us/album/something-just-like-this/1207120422?i=1207120448&uo=4",
-    "metadata": {
-      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
-      "file_name": "dynamic_endpoint.json",
-      "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-19T16:10:57.406345Z"
+      "extraction_timestamp": "2026-05-03T20:40:55.802311Z"
     }
   },
   {
@@ -126,7 +113,20 @@
       "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
       "file_name": "dynamic_endpoint.json",
       "type": "dynamic-json-endpoint",
-      "extraction_timestamp": "2026-04-19T16:10:57.406355Z"
+      "extraction_timestamp": "2026-05-03T20:40:55.802317Z"
+    }
+  },
+  {
+    "title": "Something Just Like This",
+    "description": "The Chainsmokers & Coldplay",
+    "price": "1.29",
+    "date": "2017-02-22T08:00:00Z",
+    "link": "https://music.apple.com/us/album/something-just-like-this/1207120422?i=1207120448&uo=4",
+    "metadata": {
+      "source": "https://itunes.apple.com/search?term=coldplay&entity=song&limit=10",
+      "file_name": "dynamic_endpoint.json",
+      "type": "dynamic-json-endpoint",
+      "extraction_timestamp": "2026-05-03T20:40:55.802323Z"
     }
   }
 ]
