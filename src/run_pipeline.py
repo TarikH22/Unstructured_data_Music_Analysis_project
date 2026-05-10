@@ -425,3 +425,16 @@ def run_pipeline():
 
 if __name__ == "__main__":
     run_pipeline()
+
+# Integrated Analytics Step
+import pandas as pd
+import os
+if os.path.exists("data/processed/cleaned/clean.csv"):
+    try:
+        import analytics.insight_reporter as ir
+        df = pd.read_csv("data/processed/cleaned/clean.csv")
+        ir.run_all_questions(df)
+    except ImportError:
+        pass
+# df = pd.read_csv('data/processed/cleaned/clean.csv')
+# ir.run_all_questions(df)
