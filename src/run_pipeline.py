@@ -54,6 +54,8 @@ from analytics.regex_ops import (
 )
 from analytics.quality_report import run_full_quality_audit
 from cleaning.clean_pipeline import run_cleaning_pipeline
+from embeddings.chroma_store import get_client, get_or_create_collection, add_artists
+from embeddings.search_engine import semantic_search
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
@@ -275,6 +277,32 @@ def run_analytics_stage():
     logger.info("Analytics stage finished")
 
 
+def run_embedding_stage(cleaned_csv: Path) -> None:
+    """Generate embeddings for the cleaned dataset and populate ChromaDB."""
+    logger.info("Embedding stage started")
+    if not cleaned_csv.exists():
+        logger.warning("Embedding stage skipped: %s not found", cleaned_csv)
+        return
+
+    df = pd.read_csv(cleaned_csv)
+    if df.empty:
+        logger.warning("Embedding stage skipped: cleaned dataset is empty")
+        return
+
+    client = get_client()
+    collection = get_or_create_collection(client)
+    added = add_artists(collection, df, skip_existing=True)
+    logger.info("Embedding stage: added %s artists to ChromaDB (total in collection: %s)", added, collection.count())
+
+    sample_queries = ["popular rock band", "electronic music artist", "hip hop"]
+    for q in sample_queries:
+        results = semantic_search(q, n_results=3)
+        names = [r["metadata"].get("name", r["id"]) for r in results]
+        logger.info("Semantic search '%s' -> %s", q, names)
+
+    logger.info("Embedding stage finished")
+
+
 def run_pipeline():
     logger.info("Starting pipeline...")
 
@@ -420,6 +448,12 @@ def run_pipeline():
             logger.warning("Cleaning stage skipped: integrated_raw_export.csv not found")
     except Exception as e:
         logger.error(f"Cleaning stage failed: {e}")
+
+    # 11. Embedding stage (semantic search via ChromaDB)
+    try:
+        run_embedding_stage(CLEANING_DIR / "clean.csv")
+    except Exception as e:
+        logger.error(f"Embedding stage failed: {e}")
 
     logger.info("Pipeline finished")
 
