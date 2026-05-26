@@ -56,6 +56,7 @@ from analytics.quality_report import run_full_quality_audit
 from cleaning.clean_pipeline import run_cleaning_pipeline
 from embeddings.chroma_store import get_client, get_or_create_collection, add_artists
 from embeddings.search_engine import semantic_search
+from visualization.chart_generator import run_all_charts
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
@@ -455,7 +456,29 @@ def run_pipeline():
     except Exception as e:
         logger.error(f"Embedding stage failed: {e}")
 
+    # 12. Visualization stage
+    try:
+        run_visualizations_pipeline()
+    except Exception as e:
+        logger.error(f"Visualization stage failed: {e}")
+
     logger.info("Pipeline finished")
+
+
+def run_visualizations_pipeline() -> None:
+    """Generate all static and interactive visualizations from the cleaned dataset."""
+    logger.info("Visualization stage started")
+    cleaned_csv = CLEANING_DIR / "clean.csv"
+    if not cleaned_csv.exists():
+        logger.warning("Visualization stage skipped: %s not found", cleaned_csv)
+        return
+    results = run_all_charts(cleaned_csv)
+    logger.info(
+        "Visualization stage finished: static=%s interactive=%s",
+        results["static"],
+        results["interactive"],
+    )
+
 
 if __name__ == "__main__":
     run_pipeline()
